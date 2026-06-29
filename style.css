@@ -191,3 +191,56 @@ p {
   font-size: 16px;
   opacity: 0.7;
 }
+
+/* order */
+
+.order {
+  background-color: #312F30;
+  padding: 60px 0;
+}
+
+.order .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order__img {}
+
+.order__text {
+  max-width: 371px;
+  margin-right: 92px;
+}
+
+.order__title {
+  font-size: 44px;
+  margin-bottom: 24px;
+}
+
+.order__desc {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 13px;
+}
+
+.order__price {
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  color: #F6762C;
+
+}
+
+.order__price--old {
+  font-size: 16px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.order__price+.order__price {
+  margin-left: 3px;
+}
+
+.order__text .btn {
+  margin-top: 11px;
+}
