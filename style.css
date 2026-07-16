@@ -441,3 +441,81 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
+
+/* footer */
+.footer .container {
+  padding: 125px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  width: 73px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.footer__email {}
+
+.footer__icon {
+  width: 12px;
+  height: 12px;
+  margin-right: 7px;
+}
+
+.footer__website {}
+
+.footer__link {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.8;
+  transition: color 250ms ease-in-out;
+}
+
+.footer__link:hover {
+  color: #F6762C;
+}
+
+.footer__menu,
+.footer__info,
+.footer__links,
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px
+}
+
+
+.footer__title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer__menu-list,
+.footer__info-list,
+.footer__links-list {}
+
+.footer__menu-item,
+.footer__info-item,
+.footer__links-item {
+  margin-bottom: 15px;
+}
+
+
+.footer__social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__socila-item {}
+
+.footer__sm-icon {
+  width: 15px;
+  height: 15px;
+}
